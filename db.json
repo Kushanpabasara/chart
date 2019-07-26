@@ -1,5 +1,5 @@
 {
-  "products": {
+  "products":
     [{
       "id": "001",
       "code": "PRO01",
@@ -11,6 +11,29 @@
       "code": "PRO02",
       "name": "Product02",
       "style": ["0004", "0005", "0006"]
-      }]
-  }
+      }],
+
+    "styles":
+    [
+       {
+      "id": "001",
+      "code": "STY01",
+      "name": "Style01",
+      "countries": ["AF", "AX"]
+       } ,
+       {
+       "id": "002",
+       "code": "PRO02",
+       "name": "Product02",
+       "countries": ["AL", "DZ"]
+       }
+
+    ],
+    "countries": [
+      { "name": "Afghanistan", "code": "AF" },
+   { "name": "Åland Islands", "code": "AX" },
+   { "name": "Albania", "code": "AL" },
+   { "name": "Algeria", "code": "DZ" }
+    ]
+
 }
