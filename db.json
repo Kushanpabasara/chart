@@ -1,0 +1,38 @@
+{
+ public products = [
+   {
+     id: '001',
+     code: 'PRO01',
+     name: "Product01",
+     style: ["0001", "0002", "0003"]
+   },
+   {
+     id: '002',
+     code: 'PRO02',
+     name: "Product02",
+     style: ["0004", "0005", "0006"]
+   },
+ ];
+
+ public styles = [
+   {
+     id: '001',
+     code: 'STY01',
+     name: "Style01",
+     countries: ["AF", "AX"]
+   },
+   {
+     id: '002',
+     code: 'PRO02',
+     name: "Product02",
+     countries: ["AL", "DZ"]
+   },
+ ];
+
+ public countries = [
+   { name: 'Afghanistan', code: 'AF' },
+   { name: 'Åland Islands', code: 'AX' },
+   { name: 'Albania', code: 'AL' },
+   { name: 'Algeria', code: 'DZ' }
+ ]
+}
